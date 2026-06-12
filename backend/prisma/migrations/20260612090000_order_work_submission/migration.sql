@@ -1,0 +1,11 @@
+ALTER TABLE `orders`
+  ADD COLUMN `escrowStatus` VARCHAR(191) NOT NULL DEFAULT 'UNPAID',
+  ADD COLUMN `workProof` VARCHAR(191) NULL,
+  ADD COLUMN `workNote` VARCHAR(191) NULL,
+  ADD COLUMN `workSubmission` VARCHAR(191) NULL,
+  ADD COLUMN `workSubmittedAt` DATETIME(3) NULL,
+  ADD COLUMN `workApprovedAt` DATETIME(3) NULL,
+  ADD COLUMN `autoReleaseAt` DATETIME(3) NULL,
+  ADD COLUMN `workRejectedAt` DATETIME(3) NULL,
+  ADD COLUMN `workRejectionReason` VARCHAR(191) NULL,
+  ADD COLUMN `fundsReleasedAt` DATETIME(3) NULL;

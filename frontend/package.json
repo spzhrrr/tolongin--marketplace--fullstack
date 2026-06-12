@@ -1,0 +1,19 @@
+{
+  "name": "tolongin-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host 0.0.0.0 --port 3000",
+    "dev": "vite --host 0.0.0.0 --port 3000",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 3000"
+  },
+  "devDependencies": {
+    "vite": "^8.0.16"
+  },
+  "dependencies": {
+    "dompurify": "^3.4.8",
+    "socket.io-client": "^4.8.3"
+  }
+}

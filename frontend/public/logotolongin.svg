@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 56" width="180" height="56">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a66c2"/>
+      <stop offset="100%" stop-color="#3b8de8"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="8" width="40" height="40" rx="10" fill="url(#g)"/>
+  <text x="22" y="38" text-anchor="middle" fill="white" font-family="'Sora', system-ui, sans-serif" font-weight="800" font-size="24">t</text>
+  <circle cx="34" cy="14" r="3.5" fill="#70b5f9" stroke="white" stroke-width="1.5"/>
+  <text x="52" y="36" fill="#1d2c3c" font-family="'Sora', system-ui, sans-serif" font-weight="800" font-size="22" letter-spacing="-0.5">tolong<tspan fill="#0a66c2">in</tspan></text>
+  <circle cx="170" cy="22" r="3.5" fill="#0a66c2"/>
+</svg>
